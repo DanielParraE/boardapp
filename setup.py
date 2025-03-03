@@ -160,5 +160,7 @@ setup(
         "lms.djangoapp": [
             "boardapp = boardapp.apps:BoardappConfig",
         ],
+        "cms.djangoapp": [
+        ],
     }
 )
