@@ -2,9 +2,9 @@
 URLs for boardapp.
 """
 from django.urls import re_path  # pylint: disable=unused-import
-from django.views.generic import TemplateView  # pylint: disable=unused-import
+from .views import BoardappIndex
 
 urlpatterns = [
     # TODO: Fill in URL patterns and views here.
-    re_path(r"", TemplateView.as_view(template_name="boardapp/base.html")),
+    re_path(r"", BoardappIndex.as_view(), name="index"),
 ]
