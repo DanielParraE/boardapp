@@ -16,7 +16,7 @@ class BoardappConfig(AppConfig):
             "lms.djangoapp": {
                 "namespace": "boardapp",
                 "relative_path": "urls",
-                # "regex": "^boardapp/"
+                "regex": "^boardapp/"
             }
         },
         "settings_config": {
